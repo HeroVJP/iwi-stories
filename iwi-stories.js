@@ -1,4 +1,4 @@
-$('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '//keetraxx.github.io/boris-loader/iwi-stories.css'));
+$('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '//keetraxx.github.io/iwi-stories/iwi-stories.css'));
 $('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', 'iwi-stories.css'));
 
 var overlay = $(
