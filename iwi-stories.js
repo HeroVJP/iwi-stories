@@ -11,7 +11,7 @@ var overlay = $(
     '</div>' +
     '<p id="iwi-stories-img-caption">ah sali</p>' +
     '</div>' +
-    '<div id="iwi-stories-bubblecontainer" class="col-md-4">' +
+    '<div id="iwi-stories-bubblecontainer" class="col-md-6">' +
     '<div class="bubble"></div>' +
     '</div>' +
     '</div>' +
