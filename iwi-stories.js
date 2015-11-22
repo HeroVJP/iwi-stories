@@ -5,7 +5,7 @@ var overlay = $(
     '<div id="iwi-stories-overlay">' +
     '<div class="container">' +
     '<div class="row">' +
-    '<div class="col-lg-3 col-md-4 col-sm-6 ">' +
+    '<div class="col-md-3">' +
     '<div id="iwi-stories-img">' +
     '<img class="img-responsive" />' +
     '</div>' +
