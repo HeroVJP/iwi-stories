@@ -1,3 +1,7 @@
+figure img {
+    cursor: pointer;
+}
+
 #iwi-stories-overlay {
     position: fixed;
     top: 0;
@@ -36,7 +40,7 @@
     text-align: left;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
-    background: #0199d9;
+    background: #0f7d28;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
 }
 
@@ -56,7 +60,7 @@
     color: rgba(0,0,0,0.9);
     -o-text-overflow: clip;
     text-overflow: clip;
-    background: #0199d9;
+    background: #0f7d28;
     text-shadow: none;
     -webkit-transform: rotateZ(75deg)  translateX(-10px) skewX(-36deg);
     transform: rotateZ(75deg)  translateX(-10px) skewX(-36deg);
