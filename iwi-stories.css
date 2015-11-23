@@ -66,11 +66,11 @@
     padding-top: 50px;
 }
 
-#iwi-stories-bubblecontainer p:nth-child(even) {
+#iwi-stories-bubblecontainer p:nth-child(odd) {
     font-weight: bold;
 }
 
-#iwi-stories-bubblecontainer p:nth-child(odd) {
+#iwi-stories-bubblecontainer p:nth-child(even) {
     font-style: italic;
 }
 

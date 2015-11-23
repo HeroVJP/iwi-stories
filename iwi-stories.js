@@ -1,5 +1,5 @@
 $('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '//keetraxx.github.io/iwi-stories/iwi-stories.css'));
-$('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', 'iwi-stories.css'));
+//$('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', 'iwi-stories.css'));
 
 var overlay = $(
     '<div id="iwi-stories-overlay">' +
@@ -24,13 +24,14 @@ overlay.click(function () {
 });
 
 $('figure').click(function () {
-    var $img = $(this).find('img');
+    var $this = $(this);
+    var $img = $this.find('img');
     $('#iwi-stories-img img').attr('src', $img.attr('src'));
-    $('#iwi-stories-img-caption').text($(this).find('figcaption').text());
+    $('#iwi-stories-img-caption').text($this.find('figcaption').contents().get(0).nodeValue);
 
     $('#iwi-stories-bubblecontainer .bubble').html('');
 
-    var texts = $img.attr('alt').split('|');
+    var texts = $this.find('span.caption-addon').text().split('|');
 
     texts.forEach(function (text) {
         $('#iwi-stories-bubblecontainer .bubble').append('<p>' + $.trim(text) + '</p>');
