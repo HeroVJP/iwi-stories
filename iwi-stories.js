@@ -35,8 +35,10 @@ $('figure').click(function () {
 
     var texts = $this.find('span.caption-addon').text().split('|');
 
-    texts.forEach(function (text) {
-        $('#iwi-stories-bubblecontainer .bubble').append('<p>' + $.trim(text) + '</p>');
+    texts.forEach(function (text,i) {
+        var p = $('<p style="opacity: 0">' + $.trim(text) + '</p>');
+        p.delay(300*i).animate({opacity: 1});
+        $('#iwi-stories-bubblecontainer .bubble').append(p);
     });
 
     overlay.fadeIn();
