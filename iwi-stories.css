@@ -87,3 +87,6 @@ figure img {
     text-align: center;
 }
 
+.gallery figure figcaption {
+    line-height: 4.5em;
+}
