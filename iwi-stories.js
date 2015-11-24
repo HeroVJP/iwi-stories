@@ -23,6 +23,8 @@ overlay.click(function () {
     $(this).fadeOut();
 });
 
+$('.gallery .row').not('.skin-gutter-wide').addClass('col-lg-offset-2 col-md-offset-1');
+
 $('figure').click(function () {
     var $this = $(this);
     var $img = $this.find('img');
