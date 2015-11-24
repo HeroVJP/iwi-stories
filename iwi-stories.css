@@ -87,6 +87,6 @@ figure img {
     text-align: center;
 }
 
-.gallery figure figcaption {
-    min-height: 5em;
+.gallery figure {
+    min-height: 420px;
 }
